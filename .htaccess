@@ -1,0 +1,4 @@
+# www.concord-drilling.kz -> concord-drilling.kz, постоянный редирект 301
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.concord-drilling\.kz$ [NC]
+RewriteRule ^ https://concord-drilling.kz%{REQUEST_URI} [R=301,L]
